@@ -42,6 +42,6 @@ def readfromfile(pair):
         print(s[i])
         i=i+1
 
-    return k(range(1,30),s)
+    return k(range(1,26),s)
 
 

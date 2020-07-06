@@ -11,9 +11,9 @@ def showresult(request):
     trend = ""
 
     a = MNK.readfromfile(pair)
-    if (a > 0.1):
+    if (a > 0.01):
         trend = "восходящим"
-    elif (a < -0.1):
+    elif (a < -0.01):
         trend = "нисходящим"
     else:
         trend = "боковой"
